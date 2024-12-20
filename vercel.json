@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+      {
+        "source": "/get/:path*",
+        "destination": "https://laby.net/:path*"
+      },
+      {
+        "source": "/check/:path*",
+        "destination": "https://api.mojang.com/:path*"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
